@@ -1,5 +1,4 @@
-# carta
-<!DOCTYPE html>
+<!-- PARA MI NIÑA HERMOSA🥰 -->
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -123,19 +122,19 @@
 
   <div class="page" id="page2">
     <h1>Gracias por existir 💖</h1>
-    <p>Gracias por estar ahí en cada momento a mi lado. Me encanta tu sonrisa y cómo se te hacen chiquitos esos ojos cuando sonríes, me encanta todo de ti. En pocas palabras: me encantas tú. Eres todo lo que en alguien buscaba.</p>
+    <p>Quieoa darte las Gracias por estar ahí en cada momento a mi lado. gracias por hacerme feliz, por aguantarme y simplemente gracias por aparecer en mi vida me hacer la persona mas feliz estando a tu lado, me encantas como eres, me encata tu forma de ser, me encantan tus defectos que te hacen una persona tan especial y unica, me encanta tu sonrisa, me entan esos ojitos tan hermosos que tienes, pero mas me encantas tu, eres tu la que me vuelve loco cada dia y gracias por escogerme cada dia.❤‍🩹💞</p>
     <button onclick="nextPage()">Siguiente</button>
   </div>
 
   <div class="page" id="page3">
     <h1>Siempre juntos 💘</h1>
-    <p>Prometo cuidarte, respetarte y hacerte sentir amada todos los días de nuestras vidas. Eres mi todo.</p>
+    <p>Se que no soy el mejor novio pero mejorare para derte lo mejor de mi cada dia, no miento cuando enseriio te digo que te amo eres esa niña que tanto deseaba que llegara y quiero verte trinfar porque se lo mucho que te esfuezas para salir adelante estoy orgulloso de ti soy tu gran admirado y tu fan numero 1 y Prometo cuidarte, respetarte y hacerte sentir amada todos los días de nuestras vidas. Eres mi todo.🖤</p>
     <button onclick="nextPage()">Última</button>
   </div>
 
   <div class="page" id="page4">
     <h1>Te amo 💞</h1>
-    <p>Y siempre te amaré, más allá del tiempo y de la vida. Gracias por ser tú, eres mi constelación completa ✨.</p>
+    <p>Y siempre te amaré, más allá del tiempo y de la vida. Gracias por ser tú, a mi corazon le agrada estar contigo, eres su lugar favorito, quiero que seas mi ultimo amor, nunca olvides que este loco te ama inefablemente y mi amor por ti es sempitermo.TE AMO❤</p>
     <button onclick="restart()">Volver a leer</button>
   </div>
 
@@ -154,17 +153,23 @@
     // Navegación entre páginas
     let currentPage = 1;
     function nextPage() {
-      document.getElementById(`page${currentPage}`).classList.remove('active');
+      document.getElementById(page${currentPage}).classList.remove('active');
       currentPage++;
-      document.getElementById(`page${currentPage}`).classList.add('active');
+      document.getElementById(page${currentPage}).classList.add('active');
     }
 
     function restart() {
-      document.getElementById(`page${currentPage}`).classList.remove('active');
+      document.getElementById(page${currentPage}).classList.remove('active');
       currentPage = 1;
-      document.getElementById(`page${currentPage}`).classList.add('active');
+      document.getElementById(page${currentPage}).classList.add('active');
     }
   </script>
+
+  <!-- Música oculta de fondo -->
+  <audio autoplay loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    Tu navegador no soporta la reproducción de audio.
+  </audio>
 
 </body>
 </html>

@@ -162,7 +162,7 @@
 
   <div class="page" id="page3">
     <h1>Siempre juntos 💘</h1>
-    <p>Tal vez no soy el mejor, pero cada día me esfuerzo por darte lo mejor de mí. Estoy orgulloso de ti, de todo lo que logras. Prometo cuidarte, respetarte y amarte todos los días de nuestras vidas. Eres mi todo. 🖤</p>
+    <p>Tal vez no soy el mejor novio, pero cada día me esfuerzo por darte lo mejor de mí. Estoy orgulloso de ti, de todo lo que logras. Prometo cuidarte, respetarte y amarte todos los días de nuestras vidas. Eres mi todo. 🖤</p>
     <button onclick="nextPage()">Última</button>
   </div>
 

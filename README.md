@@ -12,16 +12,15 @@
     }
 
     html, body {
-      width: 100%;
       height: 100%;
       font-family: 'Great Vibes', cursive;
       background: linear-gradient(135deg, #ffc0cb, #ffe4e1);
-      overflow-x: hidden;
+      overflow: hidden;
     }
 
     .page {
       width: 100vw;
-      min-height: 100vh;
+      height: 100vh;
       position: absolute;
       top: 0;
       left: 100vw;
@@ -39,24 +38,21 @@
     }
 
     h1 {
-      font-size: 3.5rem;
+      font-size: 4rem;
       color: #c71585;
       text-shadow: 2px 2px 5px #fff;
-      word-wrap: break-word;
     }
 
     p {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
       color: #800040;
-      max-width: 90%;
-      margin-top: 1.2rem;
-      line-height: 1.5;
-      word-wrap: break-word;
+      max-width: 600px;
+      margin-top: 1rem;
     }
 
     button {
       margin-top: 2rem;
-      padding: 1rem 2.5rem;
+      padding: 1rem 2rem;
       font-size: 1.2rem;
       background: #ff69b4;
       color: white;
@@ -79,11 +75,9 @@
       transform: rotate(45deg);
       animation: float 10s infinite ease-in;
       opacity: 0.6;
-      z-index: -1;
     }
 
-    .heart::before,
-    .heart::after {
+    .heart::before, .heart::after {
       content: '';
       position: absolute;
       width: 20px;
@@ -111,37 +105,8 @@
       }
     }
 
-    /* Ajustes para celulares pequeños */
-    @media (max-width: 768px) {
-      h1 {
-        font-size: 2.2rem;
-      }
-
-      p {
-        font-size: 1.1rem;
-        line-height: 1.4;
-      }
-
-      button {
-        font-size: 1rem;
-        padding: 0.8rem 1.8rem;
-      }
-    }
-
-    /* Ajustes para celulares MUY pequeños (menos de 400px) */
-    @media (max-width: 400px) {
-      h1 {
-        font-size: 1.9rem;
-      }
-
-      p {
-        font-size: 1rem;
-      }
-
-      button {
-        font-size: 0.9rem;
-        padding: 0.7rem 1.4rem;
-      }
+    audio {
+      display: none;
     }
   </style>
 </head>
@@ -156,25 +121,25 @@
 
   <div class="page" id="page2">
     <h1>Gracias por existir 💖</h1>
-    <p>Gracias por estar a mi lado, por hacerme feliz, por aguantarme y simplemente por existir. Me haces la persona más feliz del mundo. Me encanta cómo eres, tus defectos que te hacen única, tu sonrisa, tus ojos hermosos... pero sobre todo, me encantas tú.</p>
+    <p>Gracias por hacerme feliz, por aguantarme y simplemente gracias por aparecer en mi vida, me encantas como eres, me encata tu forma de ser, me encantan tus defectos que te hacen una persona tan especial y única, me encanta tu sonrisa, me encantan esos ojitos tan hermosos que tienes, pero mas me encantas tu, eres tu la que me vuelve loco cada dia y gracias por escogerme cada dia.❤‍🩹💞</p>
     <button onclick="nextPage()">Siguiente</button>
   </div>
 
   <div class="page" id="page3">
     <h1>Siempre juntos 💘</h1>
-    <p>Tal vez no soy el mejor novio, pero cada día me esfuerzo por darte lo mejor de mí. Estoy orgulloso de ti, de todo lo que logras. Prometo cuidarte, respetarte y amarte todos los días de nuestras vidas. Eres mi todo. 🖤</p>
+    <p>No miento cuando enseriio te digo que te amo, eres esa niña que tanto deseaba que llegara y quiero verte trinfar porque se lo mucho que te esfuezas para salir adelante estoy orgulloso de ti soy tu gran admirado y tu fan numero 1 y Prometo cuidarte, respetarte y hacerte sentir amada todos los días de nuestras vidas. Eres mi todo.🖤</p>
     <button onclick="nextPage()">Última</button>
   </div>
 
   <div class="page" id="page4">
     <h1>Te amo 💞</h1>
-    <p>Siempre te amaré, más allá del tiempo y la vida. Eres el lugar favorito de mi corazón. Quiero que seas mi último amor. Nunca olvides que este loco te ama inefablemente. Mi amor por ti es eterno. ❤</p>
+    <p>Siempre te amaré, más allá del tiempo y de la vida. Gracias por ser tú, a mi corazon le agrada estar contigo, eres su lugar favorito, quiero que seas mi ultimo amor, nunca olvides que este loco te ama inefablemente y mi amor por ti es sempitermo.TE AMO❤.</p>
     <button onclick="restart()">Volver a leer</button>
   </div>
 
   <!-- Corazones flotantes -->
   <script>
-    const totalHearts = 30;
+    const totalHearts = 35;
     for (let i = 0; i < totalHearts; i++) {
       const heart = document.createElement('div');
       heart.className = 'heart';
@@ -184,17 +149,18 @@
       document.body.appendChild(heart);
     }
 
+    // Navegación entre páginas
     let currentPage = 1;
     function nextPage() {
-      document.getElementById(page${currentPage}).classList.remove('active');
+      document.getElementById(`page${currentPage}`).classList.remove('active');
       currentPage++;
-      document.getElementById(page${currentPage}).classList.add('active');
+      document.getElementById(`page${currentPage}`).classList.add('active');
     }
 
     function restart() {
-      document.getElementById(page${currentPage}).classList.remove('active');
+      document.getElementById(`page${currentPage}`).classList.remove('active');
       currentPage = 1;
-      document.getElementById(page${currentPage}).classList.add('active');
+      document.getElementById(`page${currentPage}`).classList.add('active');
     }
   </script>
 

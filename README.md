@@ -1,4 +1,5 @@
-# PARA MI PRINCESA👑❤️‍🔥
+# PARA MI PRINCESA
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -134,7 +135,7 @@
 
   <div class="page" id="page4">
     <h1>Te amo 💞</h1>
-    <p>Siempre te amaré, más allá del tiempo y de la vida. Gracias por ser tú, a mi corazon le agrada estar contigo, eres su lugar favorito, quiero que seas mi ultimo amor, nunca olvides que este loco te ama inefablemente y mi amor por ti es sempitermo.TE AMO❤</p>
+    <p>Siempre te amaré, más allá del tiempo y de la vida. Gracias por ser tú, a mi corazon le agrada estar contigo, eres su lugar favorito, quiero que seas mi ultimo amor, nunca olvides que este loco te ama inefablemente y mi amor por ti es sempitermo.TE AMO❤.</p>
     <button onclick="restart()">Volver a leer</button>
   </div>
 
@@ -153,15 +154,15 @@
     // Navegación entre páginas
     let currentPage = 1;
     function nextPage() {
-      document.getElementById(page${currentPage}).classList.remove('active');
+      document.getElementById(`page${currentPage}`).classList.remove('active');
       currentPage++;
-      document.getElementById(page${currentPage}).classList.add('active');
+      document.getElementById(`page${currentPage}`).classList.add('active');
     }
 
     function restart() {
-      document.getElementById(page${currentPage}).classList.remove('active');
+      document.getElementById(`page${currentPage}`).classList.remove('active');
       currentPage = 1;
-      document.getElementById(page${currentPage}).classList.add('active');
+      document.getElementById(`page${currentPage}`).classList.add('active');
     }
   </script>
 

@@ -1,4 +1,4 @@
-<!-- PARA MI NIÑA HERMOSA🥰 -->
+# PARA MI PRINCESA👑❤️‍🔥
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -122,7 +122,7 @@
 
   <div class="page" id="page2">
     <h1>Gracias por existir 💖</h1>
-    <p>Quieoa darte las Gracias por estar ahí en cada momento a mi lado. gracias por hacerme feliz, por aguantarme y simplemente gracias por aparecer en mi vida me hacer la persona mas feliz estando a tu lado, me encantas como eres, me encata tu forma de ser, me encantan tus defectos que te hacen una persona tan especial y unica, me encanta tu sonrisa, me entan esos ojitos tan hermosos que tienes, pero mas me encantas tu, eres tu la que me vuelve loco cada dia y gracias por escogerme cada dia.❤‍🩹💞</p>
+    <p>Quiero darte las Gracias por estar ahí en cada momento a mi lado. gracias por hacerme feliz, por aguantarme y simplemente gracias por aparecer en mi vida me hacer la persona mas feliz estando a tu lado, me encantas como eres, me encata tu forma de ser, me encantan tus defectos que te hacen una persona tan especial y unica, me encanta tu sonrisa, me entan esos ojitos tan hermosos que tienes, pero mas me encantas tu, eres tu la que me vuelve loco cada dia y gracias por escogerme cada dia.❤‍🩹💞</p>
     <button onclick="nextPage()">Siguiente</button>
   </div>
 
@@ -134,7 +134,7 @@
 
   <div class="page" id="page4">
     <h1>Te amo 💞</h1>
-    <p>Y siempre te amaré, más allá del tiempo y de la vida. Gracias por ser tú, a mi corazon le agrada estar contigo, eres su lugar favorito, quiero que seas mi ultimo amor, nunca olvides que este loco te ama inefablemente y mi amor por ti es sempitermo.TE AMO❤</p>
+    <p>Siempre te amaré, más allá del tiempo y de la vida. Gracias por ser tú, a mi corazon le agrada estar contigo, eres su lugar favorito, quiero que seas mi ultimo amor, nunca olvides que este loco te ama inefablemente y mi amor por ti es sempitermo.TE AMO❤</p>
     <button onclick="restart()">Volver a leer</button>
   </div>
 
@@ -164,12 +164,6 @@
       document.getElementById(page${currentPage}).classList.add('active');
     }
   </script>
-
-  <!-- Música oculta de fondo -->
-  <audio autoplay loop>
-    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
-    Tu navegador no soporta la reproducción de audio.
-  </audio>
 
 </body>
 </html>
